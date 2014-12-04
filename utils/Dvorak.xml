@@ -1,0 +1,361 @@
+<keymap version="1" name="Dvorak" parent="$default">
+  <action id="$Copy">
+    <keyboard-shortcut first-keystroke="control INSERT" />
+    <keyboard-shortcut first-keystroke="shift control V" />
+  </action>
+  <action id="$Cut">
+    <keyboard-shortcut first-keystroke="shift DELETE" />
+  </action>
+  <action id="CallHierarchy" />
+  <action id="ClassTemplateNavigation" />
+  <action id="CloseEditor">
+    <keyboard-shortcut first-keystroke="control M" second-keystroke="control W" />
+  </action>
+  <action id="CommittedChanges.Details">
+    <keyboard-shortcut first-keystroke="control SEMICOLON" />
+  </action>
+  <action id="CompareDirs" />
+  <action id="CompareFileWithEditor">
+    <keyboard-shortcut first-keystroke="control F" second-keystroke="C" />
+  </action>
+  <action id="CompareJars" />
+  <action id="CompareTwoFiles">
+    <keyboard-shortcut first-keystroke="control F" second-keystroke="control C" />
+  </action>
+  <action id="Console.TableResult.EditValue" />
+  <action id="Console.TableResult.NavigateForeignAction">
+    <mouse-shortcut keystroke="control button1" />
+    <mouse-shortcut keystroke="button2" />
+  </action>
+  <action id="CopyPaths">
+    <keyboard-shortcut first-keystroke="shift control alt V" />
+  </action>
+  <action id="DatabaseView.CopyAction">
+    <keyboard-shortcut first-keystroke="shift control alt T" />
+  </action>
+  <action id="DatabaseView.GenerateDDLAction">
+    <keyboard-shortcut first-keystroke="shift control alt V" />
+  </action>
+  <action id="DatabaseView.ShowDiff" />
+  <action id="DelegateMethods">
+    <keyboard-shortcut first-keystroke="control S" second-keystroke="control D" />
+  </action>
+  <action id="Diff.SelectedChange">
+    <keyboard-shortcut first-keystroke="control O" second-keystroke="control C" />
+  </action>
+  <action id="Diff.UpdatedFiles" />
+  <action id="Editor Copy">
+    <keyboard-shortcut first-keystroke="shift control V" />
+  </action>
+  <action id="EditorCopy">
+    <keyboard-shortcut first-keystroke="control INSERT" />
+  </action>
+  <action id="EditorCut">
+    <keyboard-shortcut first-keystroke="shift DELETE" />
+  </action>
+  <action id="EditorDeleteLine">
+    <keyboard-shortcut first-keystroke="control alt D" />
+  </action>
+  <action id="EditorDeleteToWordEndInDifferentHumpsMode">
+    <keyboard-shortcut first-keystroke="control D" />
+  </action>
+  <action id="EditorDown">
+    <keyboard-shortcut first-keystroke="DOWN" />
+    <keyboard-shortcut first-keystroke="control T" />
+  </action>
+  <action id="EditorDownWithSelection">
+    <keyboard-shortcut first-keystroke="shift DOWN" />
+    <keyboard-shortcut first-keystroke="shift control T" />
+  </action>
+  <action id="EditorDuplicate">
+    <keyboard-shortcut first-keystroke="shift control alt T" />
+  </action>
+  <action id="EditorHungryBackSpace">
+    <keyboard-shortcut first-keystroke="shift control alt SPACE" />
+  </action>
+  <action id="EditorJoinLines">
+    <keyboard-shortcut first-keystroke="control M" second-keystroke="control J" />
+    <keyboard-shortcut first-keystroke="shift alt J" />
+  </action>
+  <action id="EditorLeft">
+    <keyboard-shortcut first-keystroke="LEFT" />
+    <keyboard-shortcut first-keystroke="control alt H" />
+  </action>
+  <action id="EditorLeftWithSelection">
+    <keyboard-shortcut first-keystroke="shift LEFT" />
+    <keyboard-shortcut first-keystroke="shift control alt H" />
+  </action>
+  <action id="EditorLineEnd">
+    <keyboard-shortcut first-keystroke="END" />
+    <keyboard-shortcut first-keystroke="control R" />
+  </action>
+  <action id="EditorLineEndWithSelection">
+    <keyboard-shortcut first-keystroke="shift END" />
+    <keyboard-shortcut first-keystroke="shift control R" />
+  </action>
+  <action id="EditorLineStart">
+    <keyboard-shortcut first-keystroke="HOME" />
+    <keyboard-shortcut first-keystroke="control G" />
+  </action>
+  <action id="EditorLineStartWithSelection">
+    <keyboard-shortcut first-keystroke="shift HOME" />
+    <keyboard-shortcut first-keystroke="shift control G" />
+  </action>
+  <action id="EditorMatchBrace">
+    <keyboard-shortcut first-keystroke="control M" second-keystroke="control B" />
+  </action>
+  <action id="EditorNextWordInDifferentHumpsMode">
+    <keyboard-shortcut first-keystroke="control N" />
+  </action>
+  <action id="EditorNextWordInDifferentHumpsModeWithSelection">
+    <keyboard-shortcut first-keystroke="shift control N" />
+  </action>
+  <action id="EditorPasteSimple" />
+  <action id="EditorPreviousWordInDifferentHumpsMode">
+    <keyboard-shortcut first-keystroke="control H" />
+  </action>
+  <action id="EditorPreviousWordInDifferentHumpsModeWithSelection">
+    <keyboard-shortcut first-keystroke="shift control H" />
+  </action>
+  <action id="EditorRight">
+    <keyboard-shortcut first-keystroke="RIGHT" />
+    <keyboard-shortcut first-keystroke="control alt N" />
+  </action>
+  <action id="EditorRightWithSelection">
+    <keyboard-shortcut first-keystroke="shift RIGHT" />
+    <keyboard-shortcut first-keystroke="shift control alt N" />
+  </action>
+  <action id="EditorScrollToCenter" />
+  <action id="EditorSelectLine">
+    <keyboard-shortcut first-keystroke="shift control W" />
+  </action>
+  <action id="EditorUnSelectWord" />
+  <action id="EditorUp">
+    <keyboard-shortcut first-keystroke="UP" />
+    <keyboard-shortcut first-keystroke="control C" />
+  </action>
+  <action id="EditorUpWithSelection">
+    <keyboard-shortcut first-keystroke="shift UP" />
+    <keyboard-shortcut first-keystroke="shift control C" />
+  </action>
+  <action id="FileChooser.NewFile">
+    <keyboard-shortcut first-keystroke="control B" second-keystroke="control F" />
+  </action>
+  <action id="FileChooser.NewFolder">
+    <keyboard-shortcut first-keystroke="alt INSERT" />
+    <keyboard-shortcut first-keystroke="control B" second-keystroke="control O" />
+  </action>
+  <action id="FileChooser.TogglePathShowing">
+    <keyboard-shortcut first-keystroke="control M" second-keystroke="control P" />
+  </action>
+  <action id="FileStructurePopup">
+    <keyboard-shortcut first-keystroke="control F12" />
+    <keyboard-shortcut first-keystroke="control O" second-keystroke="control M" />
+  </action>
+  <action id="Find">
+    <keyboard-shortcut first-keystroke="alt F3" />
+    <keyboard-shortcut first-keystroke="control F" second-keystroke="control F" />
+  </action>
+  <action id="FindNext">
+    <keyboard-shortcut first-keystroke="F3" />
+  </action>
+  <action id="FindPrevious">
+    <keyboard-shortcut first-keystroke="shift F3" />
+  </action>
+  <action id="Generate">
+    <keyboard-shortcut first-keystroke="alt INSERT" />
+    <keyboard-shortcut first-keystroke="control S" second-keystroke="control G" />
+  </action>
+  <action id="GoToClass" />
+  <action id="GotoClass">
+    <keyboard-shortcut first-keystroke="control O" second-keystroke="control C" />
+  </action>
+  <action id="GotoDeclaration">
+    <mouse-shortcut keystroke="control button1" />
+    <mouse-shortcut keystroke="button2" />
+    <keyboard-shortcut first-keystroke="control O" second-keystroke="control O" />
+  </action>
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="control O" second-keystroke="control F" />
+  </action>
+  <action id="GotoImplementation">
+    <keyboard-shortcut first-keystroke="control alt B" />
+    <mouse-shortcut keystroke="control alt button1" />
+    <keyboard-shortcut first-keystroke="control O" second-keystroke="control I" />
+  </action>
+  <action id="GotoLine">
+    <keyboard-shortcut first-keystroke="control L" />
+  </action>
+  <action id="GotoNextError">
+    <keyboard-shortcut first-keystroke="control QUOTE" />
+  </action>
+  <action id="GotoPreviousError" />
+  <action id="GotoRelated">
+    <keyboard-shortcut first-keystroke="control alt HOME" />
+    <keyboard-shortcut first-keystroke="control O" second-keystroke="control R" />
+  </action>
+  <action id="GotoRow">
+    <keyboard-shortcut first-keystroke="control L" />
+  </action>
+  <action id="GotoSuperMethod">
+    <keyboard-shortcut first-keystroke="control O" second-keystroke="control U" />
+  </action>
+  <action id="GotoSymbol">
+    <keyboard-shortcut first-keystroke="control O" second-keystroke="control S" />
+  </action>
+  <action id="GotoTest" />
+  <action id="GotoTypeDeclaration">
+    <keyboard-shortcut first-keystroke="shift control B" />
+    <mouse-shortcut keystroke="shift control button1" />
+    <keyboard-shortcut first-keystroke="control O" second-keystroke="control T" />
+  </action>
+  <action id="GuiDesigner.CreateListener">
+    <keyboard-shortcut first-keystroke="control S" second-keystroke="control O" />
+  </action>
+  <action id="GuiDesigner.Duplicate">
+    <keyboard-shortcut first-keystroke="shift control alt T" />
+  </action>
+  <action id="GuiDesigner.EditComponent" />
+  <action id="GuiDesigner.EditGroup" />
+  <action id="GuiDesigner.ShrinkSelection" />
+  <action id="GuiDesigner.SurroundPopup">
+    <keyboard-shortcut first-keystroke="control S" second-keystroke="control Z" />
+  </action>
+  <action id="IDEtalk.Rename" />
+  <action id="Images.Editor.ToggleGrid" />
+  <action id="Images.ShowThumbnails" />
+  <action id="ImplementMethods">
+    <keyboard-shortcut first-keystroke="control S" second-keystroke="control I" />
+  </action>
+  <action id="Inline" />
+  <action id="InspectCode">
+    <keyboard-shortcut first-keystroke="control M" second-keystroke="control I" />
+  </action>
+  <action id="IntroduceConstant" />
+  <action id="MethodDown">
+    <keyboard-shortcut first-keystroke="alt DOWN" />
+    <keyboard-shortcut first-keystroke="control alt R" />
+  </action>
+  <action id="MethodHierarchy" />
+  <action id="MethodHierarchy.OverrideMethodAction">
+    <keyboard-shortcut first-keystroke="control S" second-keystroke="control O" />
+  </action>
+  <action id="MethodUp">
+    <keyboard-shortcut first-keystroke="alt UP" />
+    <keyboard-shortcut first-keystroke="control alt G" />
+  </action>
+  <action id="MoveStatementDown">
+    <keyboard-shortcut first-keystroke="shift control DOWN" />
+    <keyboard-shortcut first-keystroke="control alt T" />
+  </action>
+  <action id="MoveStatementUp">
+    <keyboard-shortcut first-keystroke="shift control UP" />
+    <keyboard-shortcut first-keystroke="control alt C" />
+  </action>
+  <action id="Mvc.RunTarget" />
+  <action id="NewElement">
+    <keyboard-shortcut first-keystroke="alt INSERT" />
+    <keyboard-shortcut first-keystroke="control B" second-keystroke="control B" />
+  </action>
+  <action id="NewElementSamePlace">
+    <keyboard-shortcut first-keystroke="control alt INSERT" />
+    <keyboard-shortcut first-keystroke="control B" second-keystroke="control PERIOD" />
+  </action>
+  <action id="OptimizeImports">
+    <keyboard-shortcut first-keystroke="control alt O" />
+    <keyboard-shortcut first-keystroke="control M" second-keystroke="control O" />
+  </action>
+  <action id="OverrideMethods">
+    <keyboard-shortcut first-keystroke="control S" second-keystroke="control O" />
+  </action>
+  <action id="ParameterInfo">
+    <keyboard-shortcut first-keystroke="control M" second-keystroke="control P" />
+  </action>
+  <action id="PasteMultiple">
+    <keyboard-shortcut first-keystroke="shift control INSERT" />
+  </action>
+  <action id="PopupHector" />
+  <action id="QuickDocCopy">
+    <keyboard-shortcut first-keystroke="control INSERT" />
+  </action>
+  <action id="QuickJavaDoc">
+    <mouse-shortcut keystroke="alt button2" />
+    <keyboard-shortcut first-keystroke="control M" second-keystroke="control Q" />
+  </action>
+  <action id="Refactorings.QuickListPopupAction">
+    <keyboard-shortcut first-keystroke="control S" second-keystroke="control S" />
+  </action>
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="control alt L" />
+    <keyboard-shortcut first-keystroke="control S" second-keystroke="control F" />
+  </action>
+  <action id="RemoteHostView.CopyPaths">
+    <keyboard-shortcut first-keystroke="shift control alt V" />
+  </action>
+  <action id="RemoteHostView.Rename">
+    <keyboard-shortcut first-keystroke="shift F6" />
+  </action>
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="shift F6" />
+    <keyboard-shortcut first-keystroke="shift F2" />
+  </action>
+  <action id="RenameFavoritesList">
+    <keyboard-shortcut first-keystroke="shift F6" />
+  </action>
+  <action id="RenameFile">
+    <keyboard-shortcut first-keystroke="F2" />
+  </action>
+  <action id="Replace">
+    <keyboard-shortcut first-keystroke="control F" second-keystroke="control R" />
+  </action>
+  <action id="ReplaceInPath" />
+  <action id="Runner.CloseOtherViews">
+    <keyboard-shortcut first-keystroke="control M" second-keystroke="control V" />
+  </action>
+  <action id="SaveAll">
+    <keyboard-shortcut first-keystroke="control M" second-keystroke="control S" />
+  </action>
+  <action id="ScrollTreeToCenter" />
+  <action id="ShelvedChanges.Rename">
+    <keyboard-shortcut first-keystroke="shift F6" />
+  </action>
+  <action id="ShowIntentionActions">
+    <keyboard-shortcut first-keystroke="control M" second-keystroke="control SPACE" />
+  </action>
+  <action id="ShowPackageDeps">
+    <keyboard-shortcut first-keystroke="control M" second-keystroke="control D" />
+  </action>
+  <action id="SplitHorizontally">
+    <keyboard-shortcut first-keystroke="control X" second-keystroke="2" />
+  </action>
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="control X" second-keystroke="3" />
+  </action>
+  <action id="SurroundWith">
+    <keyboard-shortcut first-keystroke="control S" second-keystroke="control Z" />
+  </action>
+  <action id="SwitchApply">
+    <keyboard-shortcut first-keystroke="shift alt ENTER" />
+  </action>
+  <action id="SwitchDown">
+    <keyboard-shortcut first-keystroke="shift alt DOWN" />
+  </action>
+  <action id="SwitchLeft">
+    <keyboard-shortcut first-keystroke="shift alt LEFT" />
+  </action>
+  <action id="SwitchRight">
+    <keyboard-shortcut first-keystroke="shift alt RIGHT" />
+  </action>
+  <action id="SwitchUp">
+    <keyboard-shortcut first-keystroke="shift alt UP" />
+  </action>
+  <action id="ToggleFullScreen">
+    <keyboard-shortcut first-keystroke="alt ENTER" />
+  </action>
+  <action id="TypeHierarchy" />
+  <action id="UnselectPreviousOccurrence" />
+  <action id="Vcs.ShowMessageHistory">
+    <keyboard-shortcut first-keystroke="control E" />
+  </action>
+  <action id="Vcs.UpdateProject" />
+</keymap>
