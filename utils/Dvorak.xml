@@ -11,6 +11,8 @@
   <action id="CloseEditor">
     <keyboard-shortcut first-keystroke="control M" second-keystroke="control W" />
   </action>
+  <action id="CollapseSelection" />
+  <action id="CommanderSwapPanels" />
   <action id="CommittedChanges.Details">
     <keyboard-shortcut first-keystroke="control SEMICOLON" />
   </action>
@@ -22,6 +24,7 @@
   <action id="CompareTwoFiles">
     <keyboard-shortcut first-keystroke="control F" second-keystroke="control C" />
   </action>
+  <action id="Compile" />
   <action id="Console.TableResult.EditValue" />
   <action id="Console.TableResult.NavigateForeignAction">
     <mouse-shortcut keystroke="control button1" />
@@ -37,6 +40,9 @@
     <keyboard-shortcut first-keystroke="shift control alt V" />
   </action>
   <action id="DatabaseView.ShowDiff" />
+  <action id="DebugClass">
+    <keyboard-shortcut first-keystroke="shift control F9" />
+  </action>
   <action id="DelegateMethods">
     <keyboard-shortcut first-keystroke="control S" second-keystroke="control D" />
   </action>
@@ -47,11 +53,13 @@
   <action id="Editor Copy">
     <keyboard-shortcut first-keystroke="shift control V" />
   </action>
+  <action id="EditorChooseLookupItemDot" />
   <action id="EditorCopy">
     <keyboard-shortcut first-keystroke="control INSERT" />
   </action>
   <action id="EditorCut">
     <keyboard-shortcut first-keystroke="shift DELETE" />
+    <keyboard-shortcut first-keystroke="control alt V" />
   </action>
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="control alt D" />
@@ -125,7 +133,15 @@
     <keyboard-shortcut first-keystroke="shift RIGHT" />
     <keyboard-shortcut first-keystroke="shift control alt N" />
   </action>
+  <action id="EditorScrollDown">
+    <keyboard-shortcut first-keystroke="control DOWN" />
+    <keyboard-shortcut first-keystroke="control U" />
+  </action>
   <action id="EditorScrollToCenter" />
+  <action id="EditorScrollUp">
+    <keyboard-shortcut first-keystroke="control UP" />
+    <keyboard-shortcut first-keystroke="control P" />
+  </action>
   <action id="EditorSelectLine">
     <keyboard-shortcut first-keystroke="shift control W" />
   </action>
@@ -170,6 +186,7 @@
   <action id="GotoClass">
     <keyboard-shortcut first-keystroke="control O" second-keystroke="control C" />
   </action>
+  <action id="GotoCustomRegion" />
   <action id="GotoDeclaration">
     <mouse-shortcut keystroke="control button1" />
     <mouse-shortcut keystroke="button2" />
@@ -244,13 +261,19 @@
     <keyboard-shortcut first-keystroke="alt UP" />
     <keyboard-shortcut first-keystroke="control alt G" />
   </action>
-  <action id="MoveStatementDown">
-    <keyboard-shortcut first-keystroke="shift control DOWN" />
+  <action id="MoveLineDown">
+    <keyboard-shortcut first-keystroke="shift alt DOWN" />
     <keyboard-shortcut first-keystroke="control alt T" />
   </action>
-  <action id="MoveStatementUp">
-    <keyboard-shortcut first-keystroke="shift control UP" />
+  <action id="MoveLineUp">
+    <keyboard-shortcut first-keystroke="shift alt UP" />
     <keyboard-shortcut first-keystroke="control alt C" />
+  </action>
+  <action id="MoveTabDown">
+    <keyboard-shortcut first-keystroke="control alt COMMA" />
+  </action>
+  <action id="MoveTabRight">
+    <keyboard-shortcut first-keystroke="control alt PERIOD" />
   </action>
   <action id="Mvc.RunTarget" />
   <action id="NewElement">
@@ -261,6 +284,10 @@
     <keyboard-shortcut first-keystroke="control alt INSERT" />
     <keyboard-shortcut first-keystroke="control B" second-keystroke="control PERIOD" />
   </action>
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="alt RIGHT" />
+    <keyboard-shortcut first-keystroke="control PERIOD" />
+  </action>
   <action id="OptimizeImports">
     <keyboard-shortcut first-keystroke="control alt O" />
     <keyboard-shortcut first-keystroke="control M" second-keystroke="control O" />
@@ -268,6 +295,7 @@
   <action id="OverrideMethods">
     <keyboard-shortcut first-keystroke="control S" second-keystroke="control O" />
   </action>
+  <action id="PackageFile" />
   <action id="ParameterInfo">
     <keyboard-shortcut first-keystroke="control M" second-keystroke="control P" />
   </action>
@@ -275,6 +303,10 @@
     <keyboard-shortcut first-keystroke="shift control INSERT" />
   </action>
   <action id="PopupHector" />
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="alt LEFT" />
+    <keyboard-shortcut first-keystroke="control COMMA" />
+  </action>
   <action id="QuickDocCopy">
     <keyboard-shortcut first-keystroke="control INSERT" />
   </action>
