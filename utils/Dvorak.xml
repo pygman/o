@@ -270,10 +270,10 @@
     <keyboard-shortcut first-keystroke="control alt C" />
   </action>
   <action id="MoveTabDown">
-    <keyboard-shortcut first-keystroke="control alt COMMA" />
+    <keyboard-shortcut first-keystroke="shift control alt COMMA" />
   </action>
   <action id="MoveTabRight">
-    <keyboard-shortcut first-keystroke="control alt PERIOD" />
+    <keyboard-shortcut first-keystroke="shift control alt PERIOD" />
   </action>
   <action id="Mvc.RunTarget" />
   <action id="NewElement">
@@ -283,6 +283,9 @@
   <action id="NewElementSamePlace">
     <keyboard-shortcut first-keystroke="control alt INSERT" />
     <keyboard-shortcut first-keystroke="control B" second-keystroke="control PERIOD" />
+  </action>
+  <action id="NextSplitter">
+    <keyboard-shortcut first-keystroke="control alt COMMA" />
   </action>
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="alt RIGHT" />
@@ -303,6 +306,9 @@
     <keyboard-shortcut first-keystroke="shift control INSERT" />
   </action>
   <action id="PopupHector" />
+  <action id="PrevSplitter">
+    <keyboard-shortcut first-keystroke="control alt PERIOD" />
+  </action>
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="alt LEFT" />
     <keyboard-shortcut first-keystroke="control COMMA" />
