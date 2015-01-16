@@ -1,3 +1,18 @@
+(set-fontset-font "fontset-default"'gb18030' ("Microsoft YaHei" . "unicode-bmp"))
+(setq scroll-step 1
+scroll-margin 3
+scroll-conservatively 10000)
+
+(global-set-key [f11] 'my-fullscreen) 
+(defun my-fullscreen ()
+(interactive)
+(x-send-client-message
+nil 0 nil "_NET_WM_STATE" 32
+'(2 "_NET_WM_STATE_FULLSCREEN" 0))
+)
+
+(global-linum-mode 1)
+(tool-bar-mode 0)
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -10,7 +25,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
-(global-set-key (kbd "<f5>") 'shell)
+(global-set-key (kbd "C-l") 'goto-line)
 (global-set-key (kbd "C-c") 'previous-line)
 (global-set-key (kbd "C-t") 'next-line)
 (global-set-key (kbd "C-h") 'backward-word)
@@ -24,6 +39,12 @@
 (global-set-key (kbd "C-M-n") 'forward-char)
 (global-set-key (kbd "C-M-d") 'kill-whole-line)
 (global-set-key (kbd "C-d") 'kill-word)
+(global-set-key (kbd "C-a") 'mark-whole-buffer)
+(global-set-key (kbd "C-z") 'undo)
+(global-set-key (kbd "C-q") 'keyboard-quit)
+(global-set-key (kbd "C-,") 'previous-buffer)
+(global-set-key (kbd "C-.") 'next-buffer)
+(global-set-key (kbd "C-M-.") 'other-window)
 
  ;;
 (defun dvorak-mode-keymap()
@@ -41,6 +62,9 @@
   (local-set-key (kbd "C-M-n") 'forward-char)
   (local-set-key (kbd "C-M-d") 'kill-whole-line)
   (local-set-key (kbd "C-d") 'kill-word)
+  (local-set-key (kbd "C-a") 'mark-whole-buffer)
+  (local-set-key (kbd "C-z") 'undo)
+  (local-set-key (kbd "C-q") 'keyboard-quit)
 )
 
  ;;
@@ -62,3 +86,5 @@
 (add-hook 'org-mode-hook 'dvorak-mode-keymap)
 (add-hook 'sh-mode-hook 'dvorak-mode-keymap)
 (add-hook 'sh-mode-hook 'dvorak-mode-keymap)
+(add-hook 'dired-mode-hook 'dvorak-mode-keymap)
+(add-hook 'sql-mode-hook 'dvorak-mode-keymap)
